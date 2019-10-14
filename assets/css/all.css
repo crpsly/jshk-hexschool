@@ -1,0 +1,205 @@
+/* 上部 */
+.top {
+    display: flex;
+    background-color: #424242;
+    justify-content: center;
+    font-size: 18px;
+    color: #FFD366;
+}
+
+.top>div:not(:nth-child(2)) {
+    padding: 60px 30px 60px;
+}
+.top>div:nth-child(2) {
+    padding: 30px 30px 60px;
+}
+
+.top label {
+    margin: 10px 0 5px;
+    display: inline-block;
+}
+
+.form input {
+    border-radius: 10px;
+    border: solid 2px #FFD366;
+    padding: 5px 10px;
+    background-color: rgba(255, 255, 255, 0.18);
+    outline: none;
+    font-size: 24px;
+    color: rgba(255,255,255,0.5)
+}
+
+.form input::placeholder {
+    font-size: 24px;
+}
+
+.result input {
+    background-color: #FFD366;
+    border: none;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    font-size: 24px;
+    color: #424242;
+    outline: none;
+}
+.result .newbtn{
+    width: 120px;
+    height: 120px;
+    border: solid 6px;
+    border-radius: 50%;
+    position: relative;
+    box-sizing: border-box;
+}
+.result .newbtn .text {
+    font-size: 32px;
+    text-align: center;
+    margin-top: 32px;
+}
+.result .newbtn .text h4{
+    font-size: 14px;
+    margin-top: 7px;
+}
+.result input:hover {
+    box-shadow: 0px 0px 15px rgba(255,211,103,0.7);
+}
+.result .resetbtn{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #fff;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+.result .resetbtn img{
+    margin-top: 5px;
+}
+.result .judgetxt{
+    position: absolute;
+    left: 120%;
+    font-size: 32px;
+    top: 50%;
+    transform: translateY(-50%);
+    word-break: keep-all;
+}
+/* 中部 */
+.middle {
+    background-color: #ececec;
+    text-align: center;
+    padding: 60px 0px;
+}
+
+.middle h3 {
+    font-size: 24px;
+    color: #424242;
+    margin-bottom: 20px;
+ 
+}
+
+ul#list {
+    display: table;
+    margin: 0 auto;
+    text-align: left;
+    padding: 20px 0 30px;
+}
+
+ul li {
+    background-color: #fff;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-left: solid 7px black;
+
+}
+
+li td {
+    font-size: 20px;
+    color: #424242;
+    width: 100px;
+    padding-left: 20px;
+}
+
+ul li span {
+    font-size: 12px;
+    display: inline-block;
+}
+
+.delbtn{
+    text-decoration: none;
+    border: solid 3px #424242;
+    color: #424242;
+    padding: 10px;
+    border-radius: 10px;
+}
+/* border color JS */
+.colorgreen{
+    border-color: #86D73F !important;
+}
+.colorred {
+    border-color: #FF1200 !important;
+}
+.colorblue {
+    border-color: #31BAF9 !important;
+}
+.colororg{
+    border-color: #FF982D !important;
+}
+.colororgdeep {
+    border-color: #FF6C03 !important;
+}
+
+/* 文字 color JS */
+.txtcolorgreen {
+    color: #86D73F !important;
+}
+
+.txtcolorred {
+    color: #FF1200 !important;
+}
+
+.txtcolorblue {
+    color: #31BAF9 !important;
+}
+
+.txtcolororg {
+    color: #FF982D !important;
+}
+
+.txtcolororgdeep {
+   color: #FF6C03 !important;
+}
+
+/* 背景 color JS */
+.bgcolorgreen {
+    background-color: #86D73F !important;
+}
+
+.bgcolorred {
+    background-color: #FF1200 !important;
+}
+
+.bgcolorblue {
+    background-color: #31BAF9 !important;
+}
+
+.bgcolororg {
+    background-color: #FF982D !important;
+}
+
+.bgcolororgdeep {
+    background-color: #FF6C03 !important;
+}
+
+
+
+/* 底部 */
+.footer {
+    background-color: #FFD366;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer .bmiimg {
+    width: 55px;
+}

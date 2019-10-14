@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JS作業-計算BMI</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+    <link rel="stylesheet" href="./assets/css/all.css">
+</head>
+
+<body>
+    <div class="top">
+        <div class="bmiimg">
+            <img src="./assets/img/BMICLogo.png" alt="" class="bmiimg">
+        </div>
+        <div class="form">
+            <label for="height">身高 cm</label><br>
+            <input type="text" id="height" placeholder="請輸入身高"><br>
+            <label for="weight">體重 kg</label><br>
+            <input type="text" id="weight" placeholder="請輸入體重"><br>
+        </div>
+        <div class="result">
+            <input type="button" id="btn" value="看結果">
+        </div>
+    </div>
+    <div class="middle">
+        <h3>BMI 紀錄</h3>
+        <ul id="list"></ul>
+        <a href="#" class="delbtn">清除紀錄</a>
+    </div>
+    <div class="footer">
+        <img src="./assets/img/BMICLogo-gray.png" alt="" class="bmiimg">
+    </div>
+
+    <script src="./assets/js/all.js"></script>
+</body>
+
+</html>
